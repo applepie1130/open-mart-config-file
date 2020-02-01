@@ -4,7 +4,7 @@ logging:
       apiserver:
         api: DEBUG
   #path: "/home/ec2-user/tank0/logs"
-  path: "/tank1/logs"
+  path: "/tank0/logs"
 #  level:
 #    root: error  
   
