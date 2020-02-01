@@ -1,0 +1,15 @@
+logging:
+  level:
+    openmart:
+      apiserver:
+        api: ERROR
+  path: "/home/ec2-user/tank0/logs"
+  
+#  level:
+#    root: error  
+  
+#spring:
+#  resources:
+#    static-locations:
+#    - /swagger/
+
