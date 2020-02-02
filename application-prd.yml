@@ -13,3 +13,8 @@ logging:
 #    static-locations:
 #    - /swagger/
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "refresh, env"
