@@ -2,7 +2,7 @@ logging:
   level:
     openmart:
       apiserver:
-        api: DEBUG
+        api: ERROR
   path: "/home/ec2-user/tank0/logs"
   
 #  level:
