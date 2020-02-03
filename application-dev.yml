@@ -1,4 +1,4 @@
-test : 6666
+test : application-dev.yml
 
 logging:
   level:
