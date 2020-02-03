@@ -1,4 +1,5 @@
 test : application-dev.yml
+fileName : application-dev.yml
 
 logging:
   level:
