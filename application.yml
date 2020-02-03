@@ -1,21 +1,2 @@
 test : 5555
 
-logging:
-  level:
-    openmart:
-      apiserver:
-        api: DEBUG
-  path: "/tank0/logs"
-#  level:
-#    root: error  
-  
-#spring:
-#  resources:
-#    static-locations:
-#    - /swagger/
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "refresh, env, metrics"
