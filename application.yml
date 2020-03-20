@@ -1,2 +1,23 @@
-fileName : application-default.yml
+logging:
+  level:
+    openmart:
+      apiserver:
+        api: ERROR
+  path: "/home/ec2-user/tank0/logs"
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "refresh, env, metrics"
+
+---
+srping:
+  profiles: dev
+
+logging:
+  level:
+    openmart:
+      apiserver:
+        api: DEBUG
+  path: "/tank0/logs"
