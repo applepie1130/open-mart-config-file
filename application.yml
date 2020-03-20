@@ -2,22 +2,22 @@ logging:
   level:
     openmart:
       apiserver:
-        api: ERROR
-  path: "/home/ec2-user/tank0/logs"
+        api: DEBUG
+  path: "/tank0/logs"
 
 management:
   endpoints:
     web:
       exposure:
-        include: "refresh, env, metrics"
+        include: "refresh, env"
 
 ---
-srping:
-  profiles: dev
+spring:
+  profiles: stg,prd
 
 logging:
   level:
     openmart:
       apiserver:
-        api: DEBUG
-  path: "/tank0/logs"
+        api: ERROR
+  path: "/home/ec2-user/tank0/logs"
