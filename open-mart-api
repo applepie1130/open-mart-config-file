@@ -1,0 +1,8 @@
+
+FIXED_HOLIDAYS_INFO: 매월 둘째일, 넷째주 일요일 (3월22일) - local, dev
+  
+---
+spring:
+  profiles: stg,prd
+
+FIXED_HOLIDAYS_INFO: 매월 둘째일, 넷째주 일요일 (3월22일)
