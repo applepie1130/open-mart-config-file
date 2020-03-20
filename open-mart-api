@@ -1,8 +1,18 @@
 
 FIXED_HOLIDAYS_INFO: 매월 둘째일, 넷째주 일요일 (3월22일) - local, dev
-  
+
+COSTCO_FILE_PATH: /tank0/holidays/costco.json
+EMART_FILE_PATH: /tank0/holidays/emart.json
+HOMEPLUS_FILE_PATH: /tank0/holidays/homeplus.json
+LOTTEMART_FILE_PATH: /tank0/holidays/lottemart.json
+
 ---
 spring:
   profiles: stg,prd
 
 FIXED_HOLIDAYS_INFO: 매월 둘째일, 넷째주 일요일 (3월22일)
+
+COSTCO_FILE_PATH: /home/ec2-user/tank0/holidays/costco.json
+EMART_FILE_PATH: /home/ec2-user/tank0/holidays/emart.json
+HOMEPLUS_FILE_PATH: /home/ec2-user/tank0/holidays/homeplus.json
+LOTTEMART_FILE_PATH: /home/ec2-user/tank0/holidays/lottemart.json
