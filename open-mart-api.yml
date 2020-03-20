@@ -1,4 +1,6 @@
 
+fileName: open-mart-api.yml
+
 FIXED_HOLIDAYS_INFO: 매월 둘째일, 넷째주 일요일 (3월22일) - local, dev
 
 COSTCO_FILE_PATH: /tank0/holidays/costco.json
