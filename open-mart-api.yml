@@ -3,6 +3,20 @@ fileName: open-mart-api.yml
 
 FIXED_HOLIDAYS_INFO: 매월 둘째주 일요일, 넷째주 일요일 (4월12일, 4월26일) - local, dev
 
+
+---
+spring:
+  profiles: imac
+
+COSTCO_FILE_PATH: /Users/sungjun.kim/tank0/holidays/costco.json
+EMART_FILE_PATH: /Users/sungjun.kim/tank0/holidays/emart.json
+HOMEPLUS_FILE_PATH: /Users/sungjun.kim/tank0/holidays/homeplus.json
+LOTTEMART_FILE_PATH: /Users/sungjun.kim/tank0/holidays/lottemart.json
+
+---
+spring:
+  profiles: macbook
+  
 COSTCO_FILE_PATH: /tank0/holidays/costco.json
 EMART_FILE_PATH: /tank0/holidays/emart.json
 HOMEPLUS_FILE_PATH: /tank0/holidays/homeplus.json
