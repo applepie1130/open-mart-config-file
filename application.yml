@@ -1,9 +1,3 @@
-logging:
-  level:
-    openmart:
-      apiserver:
-        api: DEBUG
-  path: "/tank0/logs"
 
 management:
   endpoints:
@@ -11,6 +5,28 @@ management:
       exposure:
         include: "refresh, env"
 
+---
+spring:
+  profiles: imac
+  
+logging:
+  level:
+    openmart:
+      apiserver:
+        api: DEBUG
+  path: "/Users/sungjun.kim/tank0/logs"
+  
+---
+spring:
+  profiles: macbook
+
+logging:
+  level:
+    openmart:
+      apiserver:
+        api: DEBUG
+  path: "/tank0/logs"
+  
 ---
 spring:
   profiles: stg,prd
