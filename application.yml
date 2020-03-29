@@ -22,6 +22,11 @@ spring:
 
 logging:
   level:
+    reactor:
+      netty:
+        http:
+          client:
+            HttpClient: DEBUG
     openmart:
       apiserver:
         api: DEBUG
