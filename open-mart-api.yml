@@ -2,7 +2,7 @@
 fileName: open-mart-api.yml
 
 FIXED_HOLIDAYS_INFO: 매월 둘째주 일요일, 넷째주 일요일 (03월27일, 04월26일) - local, dev
-
+API_RADIUS: 20000
 
 ---
 spring:
