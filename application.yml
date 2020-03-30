@@ -42,6 +42,11 @@ spring:
 
 logging:
   level:
+    reactor:
+      netty:
+        http:
+          server:
+            AccessLog: ERROR
     openmart:
       apiserver:
         api: ERROR
