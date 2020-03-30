@@ -11,19 +11,26 @@ spring:
   
 logging:
   level:
+    reactor:
+      netty:
+        http:
+          server:
+            AccessLog: DEBUG
     openmart:
       apiserver:
         api: DEBUG
-  path: "/Users/sungjun.kim/tank0/logs"
-  
+  path: "/Users/sungjun.kim/tank0/logs"  
 ---
 spring:
   profiles: macbook
-
+  
 logging:
   level:
     reactor:
-      netty: trace
+      netty:
+        http:
+          server:
+            AccessLog: DEBUG
     openmart:
       apiserver:
         api: DEBUG
