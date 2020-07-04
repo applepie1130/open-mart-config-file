@@ -26,7 +26,7 @@ LOTTEMART_FILE_PATH: /tank0/holidays/lottemart.json
 spring:
   profiles: stg,prd
 
-FIXED_HOLIDAYS_INFO: 매월 둘째주, 넷째주 일요일 (06월14일, 06월28일)
+FIXED_HOLIDAYS_INFO: 07월12일, 07월26일 (매월 둘째주, 넷째주 일요일)
 
 COSTCO_FILE_PATH: /home/ec2-user/tank0/holidays/costco.json
 EMART_FILE_PATH: /home/ec2-user/tank0/holidays/emart.json
