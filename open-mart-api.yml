@@ -1,7 +1,7 @@
 
 fileName: open-mart-api.yml
 
-FIXED_HOLIDAYS_INFO: 매월 둘째주, 넷째주 일요일 (05월10일, 05월24일) - local, dev
+FIXED_HOLIDAYS_INFO: 09월13일, 09월27일 (매월 둘째주, 넷째주 일요일) - local, dev
 API_RADIUS: 20000
 
 ---
@@ -26,7 +26,7 @@ LOTTEMART_FILE_PATH: /tank0/holidays/lottemart.json
 spring:
   profiles: stg,prd
 
-FIXED_HOLIDAYS_INFO: 08월09일, 08월23일 (매월 둘째주, 넷째주 일요일)
+FIXED_HOLIDAYS_INFO: 09월13일, 09월27일 (매월 둘째주, 넷째주 일요일)
 
 COSTCO_FILE_PATH: /home/ec2-user/tank0/holidays/costco.json
 EMART_FILE_PATH: /home/ec2-user/tank0/holidays/emart.json
